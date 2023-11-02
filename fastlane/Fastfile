@@ -19,8 +19,7 @@ platform :ios do
   desc "Run Unit Tests"
   lane :test do
     scan(
-      workspace: "../finalproject-expert-main/final project.xcworkspace",
-      scheme: "final project"
+      workspace: "../finalproject-expert-main/final project.xcworkspace"
       )
   end
 end
