@@ -1,0 +1,66 @@
+PODS:
+  - Alamofire (5.4.4)
+  - Cores (1.0.9):
+    - Alamofire
+    - RxCocoa
+    - RxSwift
+  - Kingfisher (7.6.1)
+  - RxCocoa (6.6.0):
+    - RxRelay (= 6.6.0)
+    - RxSwift (= 6.6.0)
+  - RxRelay (6.6.0):
+    - RxSwift (= 6.6.0)
+  - RxSwift (6.6.0)
+  - ShimmerSwift (2.1.1)
+  - SwiftLint (0.53.0)
+  - Swinject (2.8.3)
+  - SwinjectAutoregistration (2.8.3):
+    - Swinject (~> 2.8.3)
+
+DEPENDENCIES:
+  - Alamofire (= 5.4.4)
+  - Cores (from `https://github.com/mfachrinuriza/CoresModule.git`)
+  - Kingfisher (= 7.6.1)
+  - RxCocoa
+  - RxSwift
+  - ShimmerSwift
+  - SwiftLint
+  - Swinject
+  - SwinjectAutoregistration
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - ShimmerSwift
+    - SwiftLint
+    - Swinject
+    - SwinjectAutoregistration
+
+EXTERNAL SOURCES:
+  Cores:
+    :git: https://github.com/mfachrinuriza/CoresModule.git
+
+CHECKOUT OPTIONS:
+  Cores:
+    :commit: f7eea79e3aa0e796e4761b0eeb1e59046473ed5f
+    :git: https://github.com/mfachrinuriza/CoresModule.git
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Cores: 892a950ff3dc87aa3ca88d9f4c8f0d9173f8ff93
+  Kingfisher: 93a3c6d0d551658a31e19f21747e1d15cb39d525
+  RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
+  RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
+  ShimmerSwift: f7ed2daf9c246de8299dfd9e12c6ab465cba9842
+  SwiftLint: 5ce4d6a8ff83f1b5fd5ad5dbf30965d35af65e44
+  Swinject: 893c9a543000ac2f10ee4cbaf0933c6992c935d5
+  SwinjectAutoregistration: e3ee378dc458acf78d176fc7fec3902603452667
+
+PODFILE CHECKSUM: bd5dcacaaebde9f5297a1b414429b8039af3890b
+
+COCOAPODS: 1.11.3
